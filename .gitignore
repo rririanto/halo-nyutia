@@ -60,6 +60,7 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+reqaskbwi_cache.sqlite
 
 # Flask stuff:
 instance/
@@ -102,13 +103,13 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+.DS_Store
 
 # Spyder project settings
 .spyderproject
@@ -124,6 +125,11 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+askbwi-3607da7ac53c.json
 
 # Pyre type checker
 .pyre/
+
+#other
+ngrok
+
